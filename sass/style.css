@@ -1,0 +1,128 @@
+@import url("http://fonts.cdnfonts.com/css/jmh-typewriter");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  font-size: 16px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'JMH Typewriter', sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90vw;
+  height: 100vh;
+  margin: 0 auto;
+  background: url(../images/bg-black.png);
+}
+
+.container .logo {
+  margin: 2rem auto;
+}
+
+.invitation, .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.invitation {
+  height: 100%;
+  width: 90%;
+  padding: 2rem 1rem;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.invitation .nama {
+  border-bottom: 1px dashed white;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin: 1.5rem auto;
+}
+
+.invitation .invite {
+  margin: 2rem 1rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.invitation .details {
+  margin-top: 2rem;
+}
+
+.container-event {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90vw;
+  height: 100%;
+  margin: 0 auto;
+  background: url(../images/bg.png);
+}
+
+.event {
+  height: 100%;
+  width: 90%;
+  padding: 2rem 0 0 0;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.event img {
+  width: 100%;
+  height: 100%;
+}
+
+.event .confirmation {
+  padding: 1rem 1rem 2rem 1rem;
+  background-color: #626262;
+  color: white;
+  text-align: center;
+}
+
+.event .confirmation a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  padding-left: 2rem;
+}
+
+.event .confirmation a::before {
+  position: absolute;
+  top: -2px;
+  left: -3%;
+  content: url(../images/icon-ig.png);
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // border: 1px solid red;
+    width: 90vw;
+    height: 100vh;
+    margin: 0 auto;
+    background: url(../images/bg-black.png);
+
+    .logo {
+        margin: 2rem auto;
+    }
+}
+
+.invitation, .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.invitation {
+    height: 100%;
+    width: 90%;
+    padding: 2rem 1rem;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+
+    .nama{
+        border-bottom: 1px dashed white;
+        font-weight: 400;
+        font-size: 1.5rem;
+        margin: 1.5rem auto;
+    }
+
+    .invite {
+        margin: 2rem 1rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .details {
+        margin-top: 2rem;
+    }
+}

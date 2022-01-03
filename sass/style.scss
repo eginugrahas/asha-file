@@ -1,0 +1,19 @@
+@import url('http://fonts.cdnfonts.com/css/jmh-typewriter');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 16px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'JMH Typewriter', sans-serif;
+                                                
+}
+
+
+@import "invitation";
+@import "event";

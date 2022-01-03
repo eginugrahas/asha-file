@@ -1,4 +1,23 @@
-@import url("http://fonts.cdnfonts.com/css/jmh-typewriter");
+@font-face {
+  font-family: 'JMH Typescript';
+  src: url(../fonts/JMH-Typewriter.woff);
+}
+
+@font-face {
+  font-family: 'JMH Typescript Thin';
+  src: url(../fonts/JMH-Typewriter-Thin.woff);
+}
+
+@font-face {
+  font-family: 'JMH Typescript Black';
+  src: url(../fonts/JMH-Typewriter-Black.woff);
+}
+
+@font-face {
+  font-family: 'JMH Typescript Bold';
+  src: url(../fonts/JMH-Typewriter-Bold.woff);
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;

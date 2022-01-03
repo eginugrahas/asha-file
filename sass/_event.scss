@@ -6,6 +6,8 @@
     height: 100%;
     margin: 0 auto;
     background: url(../images/bg.png);
+    scroll-snap-type: y mandatory; 
+    
 }
 
 .event {
@@ -14,6 +16,7 @@
     padding: 2rem 0 0 0;
     border-left: 2px solid black;
     border-right: 2px solid black;
+    scroll-snap-align: start;
 
     img {
         width: 100%;

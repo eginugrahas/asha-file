@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
 @font-face {
   font-family: 'JMH Typescript';
   src: url(../fonts/JMH-Typewriter.woff);
@@ -30,7 +31,7 @@ html {
 }
 
 body {
-  font-family: 'JMH Typewriter', sans-serif;
+  font-family: 'Special Elite', cursive;
   scrollbar-width: none;
 }
 

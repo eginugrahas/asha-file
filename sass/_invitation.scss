@@ -12,6 +12,7 @@
 
     .logo {
         margin: 2rem auto;
+        visibility: hidden;
     }
 }
 
@@ -45,6 +46,7 @@
     }
 
     .details {
-        margin-top: 2rem;
+        margin-top: 1.5rem;
+        overflow-y: hidden;
     }
 }
